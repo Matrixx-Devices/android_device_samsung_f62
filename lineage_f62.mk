@@ -36,9 +36,6 @@ MATRIXX_CHIPSET := exynos9825
 MATRIXX_BATTERY := 7000mah
 MATRIXX_DISPLAY := 1080x2400
 
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_f62
 PRODUCT_DEVICE := f62
